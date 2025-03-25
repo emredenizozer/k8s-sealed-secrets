@@ -14,7 +14,7 @@ By following these steps, users can ensure the secure management and deployment 
 * Encryption: The user encrypts Kubernetes secrets using a Sealed Secrets controller.
 * Storage: The Sealed Secrets are safely stored in Git.
 * Deployment: The user deploys the Sealed Secrets to the Kubernetes cluster.
-* Decryption and Creation: The Sealed Secrets controller decrypts the sealed secrets and creates a Kubernetes secrets resource on the cluster.
+* Decryption and Creation: The Sealed Secrets controller decrypts the sealed secrets and creates Kubernetes secret resources on the cluster.
 
 
 ### Sealed Secrets Workflow
